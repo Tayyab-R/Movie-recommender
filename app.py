@@ -7,7 +7,7 @@ import pandas
 
 
 cv = CountVectorizer(max_features=5000,stop_words='english')
-
+st.title('Tayyab Movie Recommender')
 
 def fetch_poster(movie_id):
     url = "https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US".format(movie_id)
@@ -63,5 +63,9 @@ if st.button('Show Recommendation'):
         st.image(recommended_movie_posters[4])
 
 
+github_profile = 'https://github.com/Tayyab-R'
+st.write('## My Github Profile')
+github_icon_html = f'<a href="{github_profile}" target="_blank"><img src="https://github.com/favicon.ico" width="32" height="32"></a>'
+st.markdown(github_icon_html, unsafe_allow_html=True)
 
 
