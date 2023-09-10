@@ -1,3 +1,4 @@
 streamlit
 requests
 scikit-learn
+pandas<2.0.0
