@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'tayyab-movie-recommender'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D2ADC62F058541A3902BFB888F6D6072 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A53A1B80C360416D826816152DA7036A }}
